@@ -43,7 +43,7 @@ function App() {
         <>
             <div className="card">
                 <Space direction="vertical">
-                    <Typography.Text>Кнопка с корпоративным цветом Rubius</Typography.Text>
+                    <Typography.Text>Кнопка с корпоративным <span className="brand">цветом Rubius</span></Typography.Text>
 
                     <Dropdown menu={{ items: authProviders, onClick: onAuthSelect }} trigger={['click']}>
                         <Button type="primary" size="large">

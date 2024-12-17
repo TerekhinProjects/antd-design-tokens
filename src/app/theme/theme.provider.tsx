@@ -7,7 +7,10 @@ export const ThemeProvider = (props: PropsWithChildren) => {
     return (
         <ConfigProvider
             {...themeConfig}
-            theme={theme as unknown as ThemeConfig}
+            theme={{
+                ...theme as unknown as ThemeConfig,
+                cssVar: { key: 'app', prefix: '' }
+            }}
             children={props.children}
         />
     );
