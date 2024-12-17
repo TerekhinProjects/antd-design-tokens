@@ -1,4 +1,4 @@
-import { themeConfig } from './themeConfig.ts';
+import { themeConfig } from './theme.config.ts';
 import theme from './theme.json';
 import { ConfigProvider, ThemeConfig } from 'antd';
 import { PropsWithChildren } from 'react';
