@@ -2,7 +2,15 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+.card {
   text-align: center;
+}
+
+article {
+  max-width: 640px;
+  margin: auto;
 }
 
 .brand {
