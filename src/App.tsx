@@ -1,5 +1,6 @@
 import { Button, Dropdown, MenuProps, Space, Typography, App as AntdApp } from 'antd';
 import { GithubOutlined } from '@ant-design/icons';
+import { LogIn } from 'lucide-react';
 import './App.css'
 
 enum AuthProviderType {
@@ -48,7 +49,7 @@ function App() {
                     <Typography.Paragraph>Кнопка с корпоративным <span className="brand">цветом Rubius</span></Typography.Paragraph>
 
                     <Dropdown menu={{ items: authProviders, onClick: onAuthSelect }} trigger={['click']}>
-                        <Button type="primary" size="large">
+                        <Button icon={<LogIn size={18} />} type="primary" size="large">
                             Войти в приложение
                         </Button>
                     </Dropdown>
