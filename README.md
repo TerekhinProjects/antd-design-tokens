@@ -18,3 +18,12 @@ https://www.figma.com/design/hTufocql7lzwJzQoDs3yIM/Antd-Design-Tokens-Example
 Плагин предоставляет два варианта выгрузки токенов в json: 
 - весь набор дизайн токенов
 - отдельно только измененыые значение, которые отличаются от исходной версии дизайн-системы в фигме
+
+## Текущие проблемы
+При использовании варианта темизации на основе [css variables](https://ant.design/docs/react/css-variables) нет синхронизации переменных темы с контекстом IDE
+
+  ![image](https://github.com/user-attachments/assets/88e455a1-7d5b-4e1d-9783-de3d65883455)
+
+Если не включать cssVar в конфиге темы, то доступ до переменных темы доступен из хука. 
+https://ant.design/docs/react/customize-theme#consume-design-token
+![image](https://github.com/user-attachments/assets/d5e1ad20-c573-4068-bf9e-63df5e0f087d)
