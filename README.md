@@ -2,7 +2,7 @@
 
 Пример файла Figma (форм antd community):
 
-https://www.figma.com/design/hTufocql7lzwJzQoDs3yIM/Antd-Design-Tokens-Example
+https://www.figma.com/design/M87cxwSziOf0SpIyghb9XE/Ant-Design-System-for-Figma-(Free-version)-(Community)-(Copy)
 
 ## Процесс обновления темы
 
