@@ -14,7 +14,7 @@ export const ThemeProvider = (props: PropsWithChildren) => {
                 ...theme as unknown as ThemeConfig,
                 cssVar: { key: 'app', prefix: '' }
             }}
-            button={{ className: styles.linearGradientButton }}
+            // button={{ className: styles.linearGradientButton }}
             card={{ className: styles.card }}
             children={props.children}
         />

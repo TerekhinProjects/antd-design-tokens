@@ -73,7 +73,7 @@ function App() {
                         className="brand">цветом Rubius</span></Typography.Paragraph>
 
                     <Dropdown menu={{items: authProviders, onClick: onAuthSelect}} trigger={['click']}>
-                        <Button icon={<LogIn size={18}/>} type="primary" size="large">
+                        <Button icon={<LogIn size={18} />} type="primary" size="large">
                             Войти в приложение
                         </Button>
                     </Dropdown>
