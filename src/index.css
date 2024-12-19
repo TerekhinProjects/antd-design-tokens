@@ -1,15 +1,4 @@
-:root {
-}
-
 body {
   margin: 0;
   background: #ebf2fa;
-}
-
-.ant-card {
-  .ant-card-head {
-    border-bottom: none;
-    min-height: initial;
-    padding-top: var(--padding-lg);
-  }
 }
