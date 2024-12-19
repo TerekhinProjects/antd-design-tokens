@@ -1,6 +1,6 @@
 # Antd Design Tokens
 
-Пример файла Figma (форм antd community):
+Пример файла Figma:
 
 https://www.figma.com/design/M87cxwSziOf0SpIyghb9XE/Ant-Design-System-for-Figma-(Free-version)-(Community)-(Copy)
 
@@ -8,7 +8,7 @@ https://www.figma.com/design/M87cxwSziOf0SpIyghb9XE/Ant-Design-System-for-Figma-
 
 1. Вносим изменения в переменные фигмы `Local Variables`
 2. Открываем в проекте фигмы плагин [Theme Buddy for Ant Design](https://www.figma.com/community/plugin/1306154519372265335/theme-buddy-for-ant-design)
-3. Копируем сгенерированный плагином json-файл темы и вставляем содержимое в файл `src/app/theme/thene.json`
+3. Копируем сгенерированный плагином json-файл темы и вставляем содержимое в файл `src/app/theme/theme.json`
 
 ![image](https://github.com/user-attachments/assets/1ef0b362-db2b-46f9-9dae-662f76e67b0f)
 
